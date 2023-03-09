@@ -49,12 +49,15 @@ def generate_response(prompt):
     message = completions.choices[0].text
     return message
 
-st.title('ChatBot 🤖 🤖')
+st.title('🤖')
 
 
-st.sidebar.title('ChatBot  🤖 🤖')
+st.sidebar.title('ChatBot')
 st.sidebar.write("""
-         #### Try my chatbot made with my sentiment classify model (Logistic Regreesion), openAI, GPT-3 and  Streamlit. 
+         #### Try my chatbot made with:
+         ##### * My sentiment classify model (Logistic Regreesion) 
+         ##### * openAI, GPT-3 
+         ##### * Streamlit. 
          """)
 
 if 'sentiment_classify' not in st.session_state:
