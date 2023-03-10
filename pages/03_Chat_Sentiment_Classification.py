@@ -39,7 +39,7 @@ def generate_response(prompt):
         engine="text-davinci-003",
         prompt=prompt,
         temperature=0.6,
-        max_tokens=200, 
+        max_tokens=300, 
         top_p=1,
         frequency_penalty=0.0,
         presence_penalty=0.6,
