@@ -44,7 +44,7 @@ phẩm, đánh giá, nhận xét cũng như đặt mua.
 st.write("""* Mục tiêu/ vấn đề: Xây dựng mô hình dự đoán giúp
 người bán hàng có thể biết được những phản hồi nhanh
 chóng của khách hàng về sản phẩm hay dịch vụ của họ
-(tích cực, tiêu cực hay trung tính), điều này giúp cho người
+(tích cực hay tiêu cực), điều này giúp cho người
 bán biết được tình hình kinh doanh, hiểu được ý kiến của
 khách hàng từ đó giúp họ cải thiện hơn trong dịch vụ, sản
 phẩm.""")
